@@ -74,3 +74,25 @@ input,select,textarea{font-size:16px!important;touch-action:manipulation}
 .achievement-pages button{border:1px solid #43434a;border-radius:12px;padding:9px 10px;background:#242429;color:#ececef;font-size:11px}
 .achievement-pages button:disabled{opacity:.3}
 .achievement-pages span{font-size:10px;color:#a5a5ad;white-space:nowrap}
+
+/* Atlas ćwiczeń i prosty kreator planów */
+.library-actions{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 13px}
+.library-actions .ghost-btn{padding:9px 10px;font-size:11px}
+.library-actions .text-button{font-size:10px}
+.library-search-label{display:block;font-size:10px;letter-spacing:.1em;color:#aaa;margin-bottom:7px}
+.library-search,.library-select{display:block;width:100%;padding:13px 12px;background:#242428;border:1px solid #3a3a40;border-radius:11px;color:#f6f6f6;font-size:16px;margin-bottom:10px;outline:0}
+.library-count{color:#85858d;font-size:11px;margin:8px 0 5px}
+.library-item{display:flex;align-items:center;width:100%;gap:12px;background:none;color:#eee;border:0;border-bottom:1px solid #313138;padding:11px 0;text-align:left;min-height:68px}
+.library-item img,.picker-item img{width:48px;height:48px;flex:none;object-fit:cover;filter:grayscale(1);border-radius:10px;background:#25252a}
+.library-item>span:nth-child(2),.picker-item>span{min-width:0;flex:1}.library-item strong,.picker-item strong{display:block;font-size:12px;font-weight:560;line-height:1.4}.library-item small,.picker-item small{display:block;font-size:10px;color:#93939b;margin-top:4px;line-height:1.4}.library-item>span:last-child{color:#9f9faa;font-size:19px}
+.catalog-pagination{display:flex;justify-content:center;align-items:center;gap:22px;margin-top:14px;color:#aaa;font-size:12px}
+.detail-photos{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:18px 0}.detail-photos figure{margin:0;background:#28282d;border-radius:14px;overflow:hidden;min-width:0;position:relative}.detail-photos img{display:block;width:100%;height:160px;object-fit:contain;filter:grayscale(1)}.detail-photos figure>span{display:block;padding:38px 5px;color:#93939a;text-align:center;font-size:12px}.detail-photos figcaption{font-size:11px;color:#ceced4;text-align:center;padding:8px 3px;border-top:1px solid #39393f}
+.detail-section{padding:10px 0;border-top:1px solid #38383e}.detail-section strong{font-size:12px;color:#eee}.detail-section p{margin:7px 0;color:#aaa;font-size:12px;line-height:1.6}
+.source-instructions{border-top:1px solid #38383e;padding:12px 0}.source-instructions summary{color:#ddd;font-size:12px;cursor:pointer}.source-instructions li{color:#a9a9af;font-size:12px;line-height:1.6;margin-bottom:6px}
+.editor-exercises{max-height:38vh;overflow:auto;overscroll-behavior:contain}.editor-row{border-bottom:1px solid #34343a;display:flex;align-items:center;gap:7px;padding:10px 0}.editor-index{color:#85858a;font-size:10px;width:17px}.editor-title{flex:1;min-width:0;font-size:12px;color:#eee}.editor-title small{display:block;margin-top:5px;color:#888}.editor-row button,.picker-item button{border:1px solid #494951;color:#fff;background:#29292f;border-radius:9px;min-width:32px;min-height:34px;font-size:18px}.editor-row button:disabled{opacity:.25}.editor-add{display:block;width:100%;border:1px dashed #73737c;border-radius:12px;padding:13px;margin:14px 0;color:#fff;background:#26262a}
+.picker-item{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid #33333a}.picker-item img{width:42px;height:42px}.picker-item button{flex:none}
+.exercise-thumb-button,.exercise-detail-action{border:0;background:transparent;color:#bcbcc5;padding:0}.exercise-thumb-button{display:flex}.exercise-detail-action{font-size:18px;padding:7px;min-height:36px}
+#picker-results{max-height:46vh;overflow-y:auto;overscroll-behavior:contain}
+@media(max-width:375px){.library-actions .ghost-btn{font-size:10px;padding:9px 7px}.detail-photos img{height:130px}}
+
+.detail-photos figure>span[hidden]{display:none}
