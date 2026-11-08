@@ -1,15 +1,19 @@
-# Training — GymTracker Focus
+# GymTracker Focus — gotowe plany 4-dniowe
 
-Mobilna aplikacja PWA (iPhone 14 Plus), trzy zakładki: Trening, Kalendarz, Progres.
+Zachowany minimalistyczny interfejs z trzema zakładkami: **Trening / Kalendarz / Progres**.
 
-## Uruchomienie
-Otwórz `index.html` przez lokalny serwer HTTP lub opublikuj pliki z folderu na GitHub Pages. Wszystkie pliki muszą znajdować się w katalogu głównym publikacji.
+## Wbudowany plan
+- Poniedziałek — Upper A: 7 ćwiczeń, 18 serii
+- Wtorek — Lower A: 6 ćwiczeń, 16 serii
+- Czwartek — Upper B: 8 ćwiczeń, 22 serie
+- Piątek — Lower B: 6 ćwiczeń, 18 serii
+
+Każde ćwiczenie ma dokładną liczbę serii i zakres powtórzeń zgodny z podaną rozpiską. Góra/Dół A/B pozostają edytowalne. W edycji dostępny jest przycisk „Przywróć gotowy plan”.
+
+## Instalacja
+Rozpakuj ZIP i prześlij pliki **z folderu** `GymTracker-Focus-Plany` do katalogu publikowanego przez GitHub Pages (np. root repozytorium). Otwórz `index.html` przez serwer HTTP albo GitHub Pages.
 
 ## Dane
-Zapis w localStorage pod kluczem `gymtracker-iphone14plus` (ten sam co GymTracker Zen). Historia może być dostępna tylko na tym samym pochodzeniu domenowym i przeglądarce. Dane nie synchronizują się między urządzeniami.
+Przechowywane w localStorage pod kluczem `gymtracker-iphone14plus` jak w poprzedniej wersji Focus. Aktualizacja nie czyści historii. Wcześniejsze własne zmiany ćwiczeń pozostają zachowane — jeśli chcesz mieć komplet nowego planu, kliknij „Edytuj plan” → „Przywróć gotowy plan”.
 
-## Zdjęcia
-Zdjęcia ćwiczeń są ładowane z publicznego repozytorium `yuhonas/free-exercise-db` i wymagają połączenia internetowego.
-
-## Funkcje
-Wybór i edycja planu, rejestracja ciężarów/reps/RIR, automatyczny timer z pauzą i resetem, kalendarz i historia serii, wykresy ciężaru i powtórzeń, PR oraz objętość.
+Zdjęcia ćwiczeń ładowane są z publicznej bazy `yuhonas/free-exercise-db` i wymagają internetu. Niektóre zdjęcia dla wariantów ćwiczeń mogą być niedostępne — aplikacja pokazuje wtedy komunikat zastępczy.
